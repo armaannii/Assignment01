@@ -1,0 +1,330 @@
+/* reset style  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* common style  */
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Common Button */
+.common-button{
+    width: 250px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Common Paragraph tag */
+.common-p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* Navigation section style start*/
+
+nav, header{
+    background-color: #FFF8F3;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 65px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+
+#logo-r{
+    color: #FD6E0A;
+}
+
+.nav-li{
+    font-size: 20px;
+    color: #474747;
+}
+/* Navigation section style end  */
+
+
+/* Banner / hero Section style start*/
+.banner{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.banner-info{
+    /* background-color: #FD6E0A; */
+    text-align: left;
+    flex: 1;
+    /* margin-top: 100px;
+    margin-bottom: 150px; */
+}
+
+.banner-img{
+    flex: 1;
+}
+
+.banner-info h1{
+    font-size: 85px;
+    font-weight: 700;
+    width: 498px;
+    height: 116px;
+    padding: 15px 0 10px;
+}
+
+#banner-p{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.button-parent{
+    margin: 20px 0;
+}
+
+.contact-button{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color:#FD6E0A;
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;  
+    margin-left: 30px;  
+}
+
+/* Banner Section style start*/
+
+/* About Section style start*/
+.about-parent-div{
+
+    background-color: #FFF8F3;
+}
+
+.about-2nd-div{
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 120px;
+    border-radius: 15px;
+}
+
+.about-2nd-div h2{
+    margin: 20px 0;
+}
+
+.about-description{
+    text-align: center;
+    width: 850px;
+}
+
+.about-inner-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.about-inner-div h6, .what-i-do-card-parent h6{
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* About Section style end*/
+
+
+/* What I do section style start*/
+.what-i-do-section{
+    text-align: center;
+}
+
+.what-i-do-section h2{
+    margin: 120px 0 40px;
+}
+
+.what-i-do-card-parent{
+    display: flex;
+    gap: 20px;
+}
+
+.what-i-do-card{
+    padding: 30px;
+    text-align: left;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #f5d0b6;
+}
+
+.what-i-do-card h6{
+    margin: 20px 0;
+}
+/* What I do section style end*/
+
+
+/* Resume section style end*/
+.resume-section{
+    padding: 40px;
+}
+
+.resume-parent-div{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    padding: 20px;
+}
+
+.resume-parent-div h6{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin: 25px 0;
+}
+
+.resume-section h2{
+    margin: 60px 0;
+}
+
+.resume-p1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-p2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin: 5px 0 20px;
+
+}
+/* Resume section style end*/
+
+
+/* show my work section style end*/
+.my-work{
+    padding-bottom: 120px;
+}
+
+.work-img-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "one two three"
+        "four two six"
+        "four five six";
+    gap: 30px;
+}
+
+.work-img-parent img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
+
+.my-work h2{
+    margin: 120px 0 60px;
+}
+/* show my work section style end*/
+
+
+/* Footer section style start */
+footer{
+    background-color: #FFF8F3;
+}
+
+.footer-section{
+    display: flex;
+    text-align: left;
+    gap: 100px;
+    padding: 150px 0;
+}
+
+.footer-left{
+    flex: 1;
+}
+
+.footer-right{
+    flex: 1;
+}
+
+.footer-left p{
+    margin: 30px 0;
+}
+
+.footer-left img{
+    padding-right: 20px;
+}
+
+.footer-right input, textarea{
+    display: block;
+    margin: 25px 0;
+    padding: 10px ;
+    padding-left: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 460px;
+    height: 60px;
+}
+
+.footer-right textarea{
+    height: 180px;
+}
+
+
+/* Footer section style end */
